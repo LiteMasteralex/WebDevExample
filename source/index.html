@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<title>Registry Form</title>
+	<link rel="stylesheet" type="text/css" href="../styles/style.css">
 </head>
 <body>
 	<h1>Registry Form 1</h1>
@@ -15,17 +16,22 @@
 	<form>
 		<fieldset>
 			<legend>New account registry</legend>
+			<div>Your information is safe with us</div>
 			<label for="Name">Complete Name</label>
 			<br>
-			<input type="text" id="Name">
+			<input type="text" id="Name" class="formElement">
 			<br>
 			<label for="Email">Email</label>
 			<br>
-			<input type="email" id="Email">
+			<input type="email" id="Email" class="formElement">
 			<br>
 			<label for="Pass">Password</label>
 			<br>
-			<input type="password" id="Pass">
+			<input type="password" id="Pass" class="formElement">
+			<br>
+			<label for="PassConf">Password Confirmation</label>
+			<br>
+			<input type="password" id="PassConf" class="formElement">
 			<br>
 			<label for="Country">Country</label>
 			<br>

@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, sans-serif;
+	color: #4F545F;
+}
+h1 {
+	padding: 20px;
+	margin: 0;
+	color: white;
+	background-color: #55B3C5;
+}
+fieldset {
+	border: 2px dashed #ddd;
+	margin: 20px;
+	padding: 20px;
+}
+fieldset>div {
+	border: 1px solid #6278B0;
+	padding: 20px 40px;
+	color: #42579C;
+	background-image: url('../assets/info-icon.png');
+	background-repeat: no-repeat;
+	background-position: center left;
+	background-color: #CCE9F8;
+	background-size: 35px;
+}
+legend {
+	font-size: 16px;
+	font-weight: 900;
+}
+.formElement, select {
+	width: 250px;
+	padding: 5px 10px;
+}
